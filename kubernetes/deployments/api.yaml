@@ -1,0 +1,17 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: raccoon-api
+  namespace: raccoon
+spec:
+  selector:
+    matchLabels:
+      app: raccoon-api
+  template:
+    metadata:
+      labels:
+        app: raccoon-api
+    spec:
+      containers:
+        - name: raccoon-api
+          image: mewa/k8s:latest
