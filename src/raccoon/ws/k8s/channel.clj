@@ -4,16 +4,21 @@
             [manifold.stream :as s]
             [clojure.core.async :refer [go <! >! <!! >!! chan thread close!]]))
 
-(defn channel-k8s-read [val]
+(def ^:const stream->channel
+  {:stdin 0
+   :stdout 1
+   :stderr 2})
+
+(def ^:const channel->stream
+  (clojure.set/map-invert stream->channel))
+
+(defn unpack [val]
   (let [[type & msg] (seq val)
-        type (cond
-               (= 0 type) :stdin
-               (= 1 type) :stdout
-               (= 2 type) :stderr)]
+        type (channel->stream type)]
     {:type type :msg (apply str (map char msg))}))
 
-(defn channel-k8s-write [val]
-  (let [msg (cons 0 (seq val))
+(defn pack [{type :type msg :msg}]
+  (let [msg (cons (stream->channel type) (seq msg))
         bytes (bytes (byte-array (map byte msg)))]
     bytes))
 
@@ -33,12 +38,12 @@
     (go
       (loop [val (<! wsIn)]
         (when (not (nil? val))
-          (println @(s/put! ws (channel-k8s-write val)))
+          @(s/put! ws (pack val))
           (recur (<! wsIn)))))
     (go
       (loop [val @(s/take! ws nil)]
         (when (not (nil? val))
-          (>! wsOut (channel-k8s-read val))
+          (>! wsOut (unpack val))
           (recur @(s/take! ws nil))))
       (close! wsOut)
       (close! wsIn))
