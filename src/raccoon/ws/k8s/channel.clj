@@ -26,7 +26,7 @@
   "Connects to URI using WebSockets channel.k8s.io subprotocol and returns
   a VECTOR containing IN and OUT channels"
   [uri]
-  (let [auth (get-in ["BearerToken" :auths] core/*api-context*)
+  (let [auth (get-in core/*api-context* [:auths "BearerToken"])
         opts {:sub-protocols "channel.k8s.io"}
         ws @(http/websocket-client
              uri
@@ -39,12 +39,12 @@
       (loop [val (<! wsIn)]
         (when (not (nil? val))
           @(s/put! ws (pack val))
-          (recur (<! wsIn)))))
+          (recur (<! wsIn))))
+      (close! wsIn))
     (go
       (loop [val @(s/take! ws nil)]
         (when (not (nil? val))
           (>! wsOut (unpack val))
           (recur @(s/take! ws nil))))
-      (close! wsOut)
-      (close! wsIn))
+      (close! wsOut))
     [wsIn wsOut]))
