@@ -4,12 +4,19 @@ metadata:
   namespace: default
   name: job-creator
 rules:
+  # create jobs
   - apiGroups: ["batch"]
     resources: ["jobs"]
     verbs: ["create"]
+  # list pods
   - apiGroups: [""]
     resources: ["pods"]
     verbs: ["list"]
+  # attach to pods
+  - apiGroups: [""]
+    resources: ["pods/attach", "pods/status"]
+    verbs: ["get"]
+  # read pod logs
   - apiGroups: [""]
     resources: ["pods/log"]
     verbs: ["get"]
