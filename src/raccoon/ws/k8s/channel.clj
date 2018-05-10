@@ -7,7 +7,9 @@
 (def ^:const stream->channel
   {:stdin 0
    :stdout 1
-   :stderr 2})
+   :stderr 2
+   :error 3
+   :resize 4})
 
 (def ^:const channel->stream
   (clojure.set/map-invert stream->channel))
@@ -27,7 +29,7 @@
   a VECTOR containing IN and OUT channels"
   [uri]
   (let [auth (get-in core/*api-context* [:auths "BearerToken"])
-        opts {:sub-protocols "channel.k8s.io"}
+        opts {:sub-protocols "v4.channel.k8s.io"}
         ws @(http/websocket-client
              uri
              (if auth
