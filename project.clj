@@ -15,6 +15,4 @@
   :main ^:skip-aot raccoon.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}
-             :executor {:main raccoon.executor.core
-                        :dependencies [[io.kubernetes/client-java "1.0.0"]
-                                       [com.taoensso/sente "1.12.0"]]}})
+             :executor {:main raccoon.executor.core}})
