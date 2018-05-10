@@ -5,18 +5,30 @@
             [kubernetes.api.core-v- :as k8scorev]
             [cheshire.core :refer :all]))
 
+(defn executor-spec [steps]
+  {:image "raccoonci/executor:latest"
+   :name "raccoon-executor"
+   :imagePullPolicy "Always"
+   :restartPolicy "OnFailure"
+   :env [{:name "KUBERNETES_URI" :value "https://kubernetes.default.svc"}
+         {:name "RACCOON_AUTH" :value "/var/run/secrets/kubernetes.io/serviceaccount/token"}
+         {:name "RACCOON_EXECUTOR_STEPS" :value (pr-str steps)}
+         {:name "RACCOON_POD_NAME" :valueFrom {:fieldRef {:fieldPath "metadata.name"}}}]})
+
 (defn create-job
   "Create job which executes CMD"
   [namespace spec]
   (let [job-name (str (java.util.UUID/randomUUID))
-        cmd (s/join ";" (:steps spec))]
+        steps (:steps spec)]
     ;; todo: add prefix join between commands
     (k8sbatch/create-batch-v1-namespaced-job
      namespace
      {:metadata {:name job-name}
       :spec {:template {:spec {:containers [{:image (or (:image spec) "ubuntu")
                                              :name "job"
-                                             :command ["sh" "-c" cmd]}]
+                                             :stdin true
+                                             :command ["sh"]}
+                                            (executor-spec steps)]
                                :restartPolicy "Never"}}}})
     {:name job-name}))
 
@@ -40,7 +52,7 @@
     (if pending
       response
       (into response
-            {:log (k8scorev/read-core-v1-namespaced-pod-log namespace pod)}))))
+            {:log (k8scorev/read-core-v1-namespaced-pod-log pod namespace {:container "job"})}))))
 
 (defn get-job
   "Get information for job with given ID"
