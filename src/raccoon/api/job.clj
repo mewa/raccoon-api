@@ -9,7 +9,6 @@
   {:image "raccoonci/executor:latest"
    :name "raccoon-executor"
    :imagePullPolicy "Always"
-   :restartPolicy "OnFailure"
    :env [{:name "KUBERNETES_URI" :value "https://kubernetes.default.svc"}
          {:name "RACCOON_AUTH" :value "/var/run/secrets/kubernetes.io/serviceaccount/token"}
          {:name "RACCOON_EXECUTOR_STEPS" :value (pr-str steps)}
@@ -20,7 +19,6 @@
   [namespace spec]
   (let [job-name (str (java.util.UUID/randomUUID))
         steps (:steps spec)]
-    ;; todo: add prefix join between commands
     (k8sbatch/create-batch-v1-namespaced-job
      namespace
      {:metadata {:name job-name}
