@@ -9,7 +9,7 @@
   (fn [req]
     (if-let [socket (try @(http/websocket-connection
                            req
-                           {:headers {"Sec-WebSocket-Protocol" "channel.k8s.io"}})
+                           {:headers {"Sec-WebSocket-Protocol" "v4.channel.k8s.io"}})
                          (catch Exception e nil))]
       (serve socket))))
 
