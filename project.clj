@@ -15,4 +15,5 @@
   :main ^:skip-aot raccoon.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}
-             :executor {:main raccoon.executor.core}})
+             :executor {:main raccoon.executor.core}
+             :e2e {:test-paths ["e2e-test"]}})

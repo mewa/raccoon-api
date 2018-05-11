@@ -1,19 +1,21 @@
-(ns raccoon.core-test
+(ns raccoon.api.job-test
   (:require [clojure.test :refer :all]
             [kubernetes.core :as core]
+            [raccoon.core :as raccoon]
             [raccoon.api :as api]
             [raccoon.api.job :as job]))
 
 (defn test-config
   [f]
-  (core/with-api-context {:base-url "http://localhost:8001"
-                          :debug false}
+  (raccoon/in-k8s
     (f)))
 
 (use-fixtures :each test-config)
 
+(def spec {:image "alpine:latest"
+           :steps ["echo success" "date" "apk add --no-cache curl" "curl google.com" "echo x" "exit 1"]})
+
 (deftest test-create
   (testing "Creating job"
-    (let [spec (api/str->spec (slurp "spec.json"))
-          job (job/create-job "default" spec)]
+    (let [job (job/create-job "default" spec)]
       (is (contains? job :name)))))
