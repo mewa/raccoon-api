@@ -19,6 +19,7 @@ variable "cluster_name" {
 }
 
 provider "google" {
+  credentials = "${file("credentials.json")}"
   project     = "${var.project}"
   region      = "${var.region}"
 }
@@ -33,6 +34,10 @@ resource "google_container_cluster" "raccoon_cluster" {
   master_auth {
     password = ""
     username = ""
+  }
+
+  node_pool {
+    name = "default-pool"
   }
 
   remove_default_node_pool = true
