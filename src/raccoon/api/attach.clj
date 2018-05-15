@@ -1,5 +1,6 @@
 (ns raccoon.api.attach
-  (:require [kubernetes.core :as core]
+  (:require [cheshire.core :as json]
+            [kubernetes.core :as core]
             [kubernetes.api.core-v- :as k8scorev]
             [clojure.string :as s]
             [raccoon.ws.k8s.channel :as ws]
@@ -9,6 +10,11 @@
   (some #(if (= container (:name %)) (:state %))
         (get-in (k8scorev/read-core-v1-namespaced-pod-status pod "default")
                 [:status :containerStatuses])))
+
+(defn successful? [{:keys [type msg]}]
+  (and
+   (= type :error)
+   (= "Success" (get (json/decode msg) "status"))))
 
 (defn attach
   "Attaches to POD and returns [IN OUT] channels for communication"
