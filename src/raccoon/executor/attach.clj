@@ -1,4 +1,4 @@
-(ns raccoon.executor.core
+(ns raccoon.executor.attach
   (:gen-class)
   (:require [kubernetes.core :as core]
             [cheshire.core :refer :all]
