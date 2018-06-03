@@ -4,6 +4,7 @@
             [cheshire.core :refer :all]
             [raccoon.api.attach :as attach]
             [raccoon.core :as raccoon]
+            [raccoon.util :refer :all]
             [clojure.core.async :refer [go timeout <! >! <!! >!! thread close! chan]]))
 
 (def eo-pipefail (str "set -o pipefail 2>/dev/null;" "set -e;"))
@@ -25,19 +26,14 @@
        (let [[in out] (attach/attach "default" pod "job")
              end (chan)]
          (go
-           (loop [msg (<! out)]
-             (when msg
-               (if (= "Success" (msg "status"))
-                 (println "Success:" msg))
-               (recur (<! out))))
+           (exhaust! out (fn [msg]
+                           (if (= "Success" (msg "status"))
+                             (println "Success:" msg))))
            (close! end))
-         (loop [step (first steps)
-                steps (rest steps)]
-           (when step
-             (let [step (wrap-shell step)]
-               (println "Executing" step (>!! in step))
-               (>!! in "LAST_CODE=$? && [ ! \"$LAST_CODE\" -eq 0 ] && echo Process exited with code $LAST_CODE && exit 0"))
-             (recur (first steps) (rest steps))))
+         (doseq [step (take-non-nil steps)]
+           (let [step (wrap-shell step)]
+             (println "Executing" step (>!! in step))
+             (>!! in "LAST_CODE=$? && [ ! \"$LAST_CODE\" -eq 0 ] && echo Process exited with code $LAST_CODE && exit 0"))))
          (>!! in "exit 0")
          (close! in)
          (<!! end)
