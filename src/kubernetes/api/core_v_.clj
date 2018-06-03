@@ -15,7 +15,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-delete-namespaced-pod-proxy
   "
@@ -37,7 +37,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-delete-namespaced-pod-proxy-with-path
   "
@@ -59,7 +59,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-delete-namespaced-service-proxy
   "
@@ -81,7 +81,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-delete-namespaced-service-proxy-with-path
   "
@@ -103,7 +103,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-delete-node-proxy
   "
@@ -125,7 +125,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-delete-node-proxy-with-path
   "
@@ -147,7 +147,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-namespaced-pod-attach
   "
@@ -169,7 +169,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-namespaced-pod-exec
   "
@@ -191,7 +191,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-namespaced-pod-portforward
   "
@@ -213,7 +213,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-namespaced-pod-proxy
   "
@@ -235,7 +235,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-namespaced-pod-proxy-with-path
   "
@@ -257,7 +257,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-namespaced-service-proxy
   "
@@ -279,7 +279,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-namespaced-service-proxy-with-path
   "
@@ -301,7 +301,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-node-proxy
   "
@@ -323,7 +323,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-get-node-proxy-with-path
   "
@@ -345,7 +345,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-head-namespaced-pod-proxy
   "
@@ -367,7 +367,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-head-namespaced-pod-proxy-with-path
   "
@@ -389,7 +389,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-head-namespaced-service-proxy
   "
@@ -411,7 +411,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-head-namespaced-service-proxy-with-path
   "
@@ -433,7 +433,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-head-node-proxy
   "
@@ -455,7 +455,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-head-node-proxy-with-path
   "
@@ -477,7 +477,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-options-namespaced-pod-proxy
   "
@@ -499,7 +499,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-options-namespaced-pod-proxy-with-path
   "
@@ -521,7 +521,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-options-namespaced-service-proxy
   "
@@ -543,7 +543,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-options-namespaced-service-proxy-with-path
   "
@@ -565,7 +565,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-options-node-proxy
   "
@@ -587,7 +587,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-options-node-proxy-with-path
   "
@@ -609,7 +609,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-patch-namespaced-pod-proxy
   "
@@ -631,7 +631,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-patch-namespaced-pod-proxy-with-path
   "
@@ -653,7 +653,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-patch-namespaced-service-proxy
   "
@@ -675,7 +675,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-patch-namespaced-service-proxy-with-path
   "
@@ -697,7 +697,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-patch-node-proxy
   "
@@ -719,7 +719,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-patch-node-proxy-with-path
   "
@@ -741,7 +741,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-namespaced-pod-attach
   "
@@ -763,7 +763,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-namespaced-pod-exec
   "
@@ -785,7 +785,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-namespaced-pod-portforward
   "
@@ -807,7 +807,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-namespaced-pod-proxy
   "
@@ -829,7 +829,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-namespaced-pod-proxy-with-path
   "
@@ -851,7 +851,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-namespaced-service-proxy
   "
@@ -873,7 +873,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-namespaced-service-proxy-with-path
   "
@@ -895,7 +895,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-node-proxy
   "
@@ -917,7 +917,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-post-node-proxy-with-path
   "
@@ -939,7 +939,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-put-namespaced-pod-proxy
   "
@@ -961,7 +961,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-put-namespaced-pod-proxy-with-path
   "
@@ -983,7 +983,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-put-namespaced-service-proxy
   "
@@ -1005,7 +1005,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-put-namespaced-service-proxy-with-path
   "
@@ -1027,7 +1027,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-put-node-proxy
   "
@@ -1049,7 +1049,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["*/*"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn connect-core-v1-put-node-proxy-with-path
   "
@@ -1072,7 +1072,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespace
   "
@@ -1095,7 +1095,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-binding
   "
@@ -1118,7 +1118,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-config-map
   "
@@ -1141,7 +1141,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-endpoints
   "
@@ -1164,7 +1164,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-event
   "
@@ -1187,7 +1187,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-limit-range
   "
@@ -1210,7 +1210,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-persistent-volume-claim
   "
@@ -1233,7 +1233,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-pod
   "
@@ -1256,7 +1256,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-pod-binding
   "
@@ -1279,7 +1279,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-pod-eviction
   "
@@ -1302,7 +1302,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-pod-template
   "
@@ -1325,7 +1325,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-replication-controller
   "
@@ -1348,7 +1348,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-resource-quota
   "
@@ -1371,7 +1371,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-secret
   "
@@ -1394,7 +1394,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-service
   "
@@ -1417,7 +1417,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-namespaced-service-account
   "
@@ -1440,7 +1440,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-node
   "
@@ -1463,7 +1463,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-core-v1-persistent-volume
   "
@@ -1485,7 +1485,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-config-map
   "
@@ -1507,7 +1507,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-endpoints
   "
@@ -1529,7 +1529,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-event
   "
@@ -1551,7 +1551,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-limit-range
   "
@@ -1573,7 +1573,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-persistent-volume-claim
   "
@@ -1595,7 +1595,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-pod
   "
@@ -1617,7 +1617,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-pod-template
   "
@@ -1639,7 +1639,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-replication-controller
   "
@@ -1661,7 +1661,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-resource-quota
   "
@@ -1683,7 +1683,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-secret
   "
@@ -1705,7 +1705,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-namespaced-service-account
   "
@@ -1726,7 +1726,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-node
   "
@@ -1747,7 +1747,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-collection-persistent-volume
   "
@@ -1770,7 +1770,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespace
   "
@@ -1793,7 +1793,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-config-map
   "
@@ -1816,7 +1816,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-endpoints
   "
@@ -1839,7 +1839,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-event
   "
@@ -1862,7 +1862,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-limit-range
   "
@@ -1885,7 +1885,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-persistent-volume-claim
   "
@@ -1908,7 +1908,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-pod
   "
@@ -1931,7 +1931,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-pod-template
   "
@@ -1954,7 +1954,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-replication-controller
   "
@@ -1977,7 +1977,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-resource-quota
   "
@@ -2000,7 +2000,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-secret
   "
@@ -2012,24 +2012,25 @@
 (defn delete-core-v1-namespaced-service-with-http-info
   "
   delete a Service"
-  ([name namespace ] (delete-core-v1-namespaced-service-with-http-info name namespace nil))
-  ([name namespace {:keys [pretty ]}]
-   (check-required-params name namespace)
+  ([name namespace body ] (delete-core-v1-namespaced-service-with-http-info name namespace body nil))
+  ([name namespace body {:keys [pretty grace-period-seconds orphan-dependents propagation-policy ]}]
+   (check-required-params name namespace body)
    (call-api "/api/v1/namespaces/{namespace}/services/{name}" :delete
              {:path-params   {"name" name "namespace" namespace }
               :header-params {}
-              :query-params  {"pretty" pretty }
+              :query-params  {"pretty" pretty "gracePeriodSeconds" grace-period-seconds "orphanDependents" orphan-dependents "propagationPolicy" propagation-policy }
               :form-params   {}
+              :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-service
   "
   delete a Service"
-  ([name namespace ] (delete-core-v1-namespaced-service name namespace nil))
-  ([name namespace optional-params]
-   (:data (delete-core-v1-namespaced-service-with-http-info name namespace optional-params))))
+  ([name namespace body ] (delete-core-v1-namespaced-service name namespace body nil))
+  ([name namespace body optional-params]
+   (:data (delete-core-v1-namespaced-service-with-http-info name namespace body optional-params))))
 
 (defn delete-core-v1-namespaced-service-account-with-http-info
   "
@@ -2045,7 +2046,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-namespaced-service-account
   "
@@ -2068,7 +2069,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-node
   "
@@ -2091,7 +2092,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-core-v1-persistent-volume
   "
@@ -2111,7 +2112,7 @@
              :form-params   {}
              :content-types ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
              :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
+             :auth-names    ["BearerToken"]}))
 
 (defn get-core-v1-api-resources
   "
@@ -2131,7 +2132,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-component-status
   "
@@ -2152,7 +2153,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-config-map-for-all-namespaces
   "
@@ -2173,7 +2174,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-endpoints-for-all-namespaces
   "
@@ -2194,7 +2195,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-event-for-all-namespaces
   "
@@ -2215,7 +2216,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-limit-range-for-all-namespaces
   "
@@ -2236,7 +2237,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespace
   "
@@ -2258,7 +2259,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-config-map
   "
@@ -2280,7 +2281,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-endpoints
   "
@@ -2302,7 +2303,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-event
   "
@@ -2324,7 +2325,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-limit-range
   "
@@ -2346,7 +2347,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-persistent-volume-claim
   "
@@ -2368,7 +2369,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-pod
   "
@@ -2390,7 +2391,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-pod-template
   "
@@ -2412,7 +2413,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-replication-controller
   "
@@ -2434,7 +2435,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-resource-quota
   "
@@ -2456,7 +2457,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-secret
   "
@@ -2478,7 +2479,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-service
   "
@@ -2500,7 +2501,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-namespaced-service-account
   "
@@ -2521,7 +2522,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-node
   "
@@ -2542,7 +2543,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-persistent-volume
   "
@@ -2563,7 +2564,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-persistent-volume-claim-for-all-namespaces
   "
@@ -2584,7 +2585,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-pod-for-all-namespaces
   "
@@ -2605,7 +2606,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-pod-template-for-all-namespaces
   "
@@ -2626,7 +2627,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-replication-controller-for-all-namespaces
   "
@@ -2647,7 +2648,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-resource-quota-for-all-namespaces
   "
@@ -2668,7 +2669,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-secret-for-all-namespaces
   "
@@ -2689,7 +2690,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-service-account-for-all-namespaces
   "
@@ -2710,7 +2711,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-core-v1-service-for-all-namespaces
   "
@@ -2733,7 +2734,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespace
   "
@@ -2756,7 +2757,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespace-status
   "
@@ -2779,7 +2780,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-config-map
   "
@@ -2802,7 +2803,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-endpoints
   "
@@ -2825,7 +2826,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-event
   "
@@ -2848,7 +2849,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-limit-range
   "
@@ -2871,7 +2872,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-persistent-volume-claim
   "
@@ -2894,7 +2895,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-persistent-volume-claim-status
   "
@@ -2917,7 +2918,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-pod
   "
@@ -2940,7 +2941,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-pod-status
   "
@@ -2963,7 +2964,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-pod-template
   "
@@ -2986,7 +2987,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-replication-controller
   "
@@ -3009,7 +3010,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-replication-controller-scale
   "
@@ -3032,7 +3033,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-replication-controller-status
   "
@@ -3055,7 +3056,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-resource-quota
   "
@@ -3078,7 +3079,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-resource-quota-status
   "
@@ -3101,7 +3102,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-secret
   "
@@ -3124,7 +3125,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-service
   "
@@ -3147,7 +3148,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-service-account
   "
@@ -3170,7 +3171,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-namespaced-service-status
   "
@@ -3193,7 +3194,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-node
   "
@@ -3216,7 +3217,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-node-status
   "
@@ -3239,7 +3240,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-persistent-volume
   "
@@ -3262,7 +3263,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-core-v1-persistent-volume-status
   "
@@ -3270,846 +3271,6 @@
   ([name body ] (patch-core-v1-persistent-volume-status name body nil))
   ([name body optional-params]
    (:data (patch-core-v1-persistent-volume-status-with-http-info name body optional-params))))
-
-(defn proxy-core-v1-delete-namespaced-pod-with-http-info
-  "
-  proxy DELETE requests to Pod"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}" :delete
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-delete-namespaced-pod
-  "
-  proxy DELETE requests to Pod"
-  [name namespace ]
-  (:data (proxy-core-v1-delete-namespaced-pod-with-http-info name namespace)))
-
-(defn proxy-core-v1-delete-namespaced-pod-with-path-with-http-info
-  "
-  proxy DELETE requests to Pod"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}/{path}" :delete
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-delete-namespaced-pod-with-path
-  "
-  proxy DELETE requests to Pod"
-  [name namespace path ]
-  (:data (proxy-core-v1-delete-namespaced-pod-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-delete-namespaced-service-with-http-info
-  "
-  proxy DELETE requests to Service"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}" :delete
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-delete-namespaced-service
-  "
-  proxy DELETE requests to Service"
-  [name namespace ]
-  (:data (proxy-core-v1-delete-namespaced-service-with-http-info name namespace)))
-
-(defn proxy-core-v1-delete-namespaced-service-with-path-with-http-info
-  "
-  proxy DELETE requests to Service"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}/{path}" :delete
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-delete-namespaced-service-with-path
-  "
-  proxy DELETE requests to Service"
-  [name namespace path ]
-  (:data (proxy-core-v1-delete-namespaced-service-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-delete-node-with-http-info
-  "
-  proxy DELETE requests to Node"
-  [name ]
-  (check-required-params name)
-  (call-api "/api/v1/proxy/nodes/{name}" :delete
-            {:path-params   {"name" name }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-delete-node
-  "
-  proxy DELETE requests to Node"
-  [name ]
-  (:data (proxy-core-v1-delete-node-with-http-info name)))
-
-(defn proxy-core-v1-delete-node-with-path-with-http-info
-  "
-  proxy DELETE requests to Node"
-  [name path ]
-  (check-required-params name path)
-  (call-api "/api/v1/proxy/nodes/{name}/{path}" :delete
-            {:path-params   {"name" name "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-delete-node-with-path
-  "
-  proxy DELETE requests to Node"
-  [name path ]
-  (:data (proxy-core-v1-delete-node-with-path-with-http-info name path)))
-
-(defn proxy-core-v1-get-namespaced-pod-with-http-info
-  "
-  proxy GET requests to Pod"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}" :get
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-get-namespaced-pod
-  "
-  proxy GET requests to Pod"
-  [name namespace ]
-  (:data (proxy-core-v1-get-namespaced-pod-with-http-info name namespace)))
-
-(defn proxy-core-v1-get-namespaced-pod-with-path-with-http-info
-  "
-  proxy GET requests to Pod"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}/{path}" :get
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-get-namespaced-pod-with-path
-  "
-  proxy GET requests to Pod"
-  [name namespace path ]
-  (:data (proxy-core-v1-get-namespaced-pod-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-get-namespaced-service-with-http-info
-  "
-  proxy GET requests to Service"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}" :get
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-get-namespaced-service
-  "
-  proxy GET requests to Service"
-  [name namespace ]
-  (:data (proxy-core-v1-get-namespaced-service-with-http-info name namespace)))
-
-(defn proxy-core-v1-get-namespaced-service-with-path-with-http-info
-  "
-  proxy GET requests to Service"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}/{path}" :get
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-get-namespaced-service-with-path
-  "
-  proxy GET requests to Service"
-  [name namespace path ]
-  (:data (proxy-core-v1-get-namespaced-service-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-get-node-with-http-info
-  "
-  proxy GET requests to Node"
-  [name ]
-  (check-required-params name)
-  (call-api "/api/v1/proxy/nodes/{name}" :get
-            {:path-params   {"name" name }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-get-node
-  "
-  proxy GET requests to Node"
-  [name ]
-  (:data (proxy-core-v1-get-node-with-http-info name)))
-
-(defn proxy-core-v1-get-node-with-path-with-http-info
-  "
-  proxy GET requests to Node"
-  [name path ]
-  (check-required-params name path)
-  (call-api "/api/v1/proxy/nodes/{name}/{path}" :get
-            {:path-params   {"name" name "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-get-node-with-path
-  "
-  proxy GET requests to Node"
-  [name path ]
-  (:data (proxy-core-v1-get-node-with-path-with-http-info name path)))
-
-(defn proxy-core-v1-head-namespaced-pod-with-http-info
-  "
-  proxy HEAD requests to Pod"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}" :head
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-head-namespaced-pod
-  "
-  proxy HEAD requests to Pod"
-  [name namespace ]
-  (:data (proxy-core-v1-head-namespaced-pod-with-http-info name namespace)))
-
-(defn proxy-core-v1-head-namespaced-pod-with-path-with-http-info
-  "
-  proxy HEAD requests to Pod"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}/{path}" :head
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-head-namespaced-pod-with-path
-  "
-  proxy HEAD requests to Pod"
-  [name namespace path ]
-  (:data (proxy-core-v1-head-namespaced-pod-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-head-namespaced-service-with-http-info
-  "
-  proxy HEAD requests to Service"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}" :head
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-head-namespaced-service
-  "
-  proxy HEAD requests to Service"
-  [name namespace ]
-  (:data (proxy-core-v1-head-namespaced-service-with-http-info name namespace)))
-
-(defn proxy-core-v1-head-namespaced-service-with-path-with-http-info
-  "
-  proxy HEAD requests to Service"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}/{path}" :head
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-head-namespaced-service-with-path
-  "
-  proxy HEAD requests to Service"
-  [name namespace path ]
-  (:data (proxy-core-v1-head-namespaced-service-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-head-node-with-http-info
-  "
-  proxy HEAD requests to Node"
-  [name ]
-  (check-required-params name)
-  (call-api "/api/v1/proxy/nodes/{name}" :head
-            {:path-params   {"name" name }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-head-node
-  "
-  proxy HEAD requests to Node"
-  [name ]
-  (:data (proxy-core-v1-head-node-with-http-info name)))
-
-(defn proxy-core-v1-head-node-with-path-with-http-info
-  "
-  proxy HEAD requests to Node"
-  [name path ]
-  (check-required-params name path)
-  (call-api "/api/v1/proxy/nodes/{name}/{path}" :head
-            {:path-params   {"name" name "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-head-node-with-path
-  "
-  proxy HEAD requests to Node"
-  [name path ]
-  (:data (proxy-core-v1-head-node-with-path-with-http-info name path)))
-
-(defn proxy-core-v1-options-namespaced-pod-with-http-info
-  "
-  proxy OPTIONS requests to Pod"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}" :options
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-options-namespaced-pod
-  "
-  proxy OPTIONS requests to Pod"
-  [name namespace ]
-  (:data (proxy-core-v1-options-namespaced-pod-with-http-info name namespace)))
-
-(defn proxy-core-v1-options-namespaced-pod-with-path-with-http-info
-  "
-  proxy OPTIONS requests to Pod"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}/{path}" :options
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-options-namespaced-pod-with-path
-  "
-  proxy OPTIONS requests to Pod"
-  [name namespace path ]
-  (:data (proxy-core-v1-options-namespaced-pod-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-options-namespaced-service-with-http-info
-  "
-  proxy OPTIONS requests to Service"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}" :options
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-options-namespaced-service
-  "
-  proxy OPTIONS requests to Service"
-  [name namespace ]
-  (:data (proxy-core-v1-options-namespaced-service-with-http-info name namespace)))
-
-(defn proxy-core-v1-options-namespaced-service-with-path-with-http-info
-  "
-  proxy OPTIONS requests to Service"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}/{path}" :options
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-options-namespaced-service-with-path
-  "
-  proxy OPTIONS requests to Service"
-  [name namespace path ]
-  (:data (proxy-core-v1-options-namespaced-service-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-options-node-with-http-info
-  "
-  proxy OPTIONS requests to Node"
-  [name ]
-  (check-required-params name)
-  (call-api "/api/v1/proxy/nodes/{name}" :options
-            {:path-params   {"name" name }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-options-node
-  "
-  proxy OPTIONS requests to Node"
-  [name ]
-  (:data (proxy-core-v1-options-node-with-http-info name)))
-
-(defn proxy-core-v1-options-node-with-path-with-http-info
-  "
-  proxy OPTIONS requests to Node"
-  [name path ]
-  (check-required-params name path)
-  (call-api "/api/v1/proxy/nodes/{name}/{path}" :options
-            {:path-params   {"name" name "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-options-node-with-path
-  "
-  proxy OPTIONS requests to Node"
-  [name path ]
-  (:data (proxy-core-v1-options-node-with-path-with-http-info name path)))
-
-(defn proxy-core-v1-patch-namespaced-pod-with-http-info
-  "
-  proxy PATCH requests to Pod"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}" :patch
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-patch-namespaced-pod
-  "
-  proxy PATCH requests to Pod"
-  [name namespace ]
-  (:data (proxy-core-v1-patch-namespaced-pod-with-http-info name namespace)))
-
-(defn proxy-core-v1-patch-namespaced-pod-with-path-with-http-info
-  "
-  proxy PATCH requests to Pod"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}/{path}" :patch
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-patch-namespaced-pod-with-path
-  "
-  proxy PATCH requests to Pod"
-  [name namespace path ]
-  (:data (proxy-core-v1-patch-namespaced-pod-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-patch-namespaced-service-with-http-info
-  "
-  proxy PATCH requests to Service"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}" :patch
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-patch-namespaced-service
-  "
-  proxy PATCH requests to Service"
-  [name namespace ]
-  (:data (proxy-core-v1-patch-namespaced-service-with-http-info name namespace)))
-
-(defn proxy-core-v1-patch-namespaced-service-with-path-with-http-info
-  "
-  proxy PATCH requests to Service"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}/{path}" :patch
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-patch-namespaced-service-with-path
-  "
-  proxy PATCH requests to Service"
-  [name namespace path ]
-  (:data (proxy-core-v1-patch-namespaced-service-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-patch-node-with-http-info
-  "
-  proxy PATCH requests to Node"
-  [name ]
-  (check-required-params name)
-  (call-api "/api/v1/proxy/nodes/{name}" :patch
-            {:path-params   {"name" name }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-patch-node
-  "
-  proxy PATCH requests to Node"
-  [name ]
-  (:data (proxy-core-v1-patch-node-with-http-info name)))
-
-(defn proxy-core-v1-patch-node-with-path-with-http-info
-  "
-  proxy PATCH requests to Node"
-  [name path ]
-  (check-required-params name path)
-  (call-api "/api/v1/proxy/nodes/{name}/{path}" :patch
-            {:path-params   {"name" name "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-patch-node-with-path
-  "
-  proxy PATCH requests to Node"
-  [name path ]
-  (:data (proxy-core-v1-patch-node-with-path-with-http-info name path)))
-
-(defn proxy-core-v1-post-namespaced-pod-with-http-info
-  "
-  proxy POST requests to Pod"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}" :post
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-post-namespaced-pod
-  "
-  proxy POST requests to Pod"
-  [name namespace ]
-  (:data (proxy-core-v1-post-namespaced-pod-with-http-info name namespace)))
-
-(defn proxy-core-v1-post-namespaced-pod-with-path-with-http-info
-  "
-  proxy POST requests to Pod"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}/{path}" :post
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-post-namespaced-pod-with-path
-  "
-  proxy POST requests to Pod"
-  [name namespace path ]
-  (:data (proxy-core-v1-post-namespaced-pod-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-post-namespaced-service-with-http-info
-  "
-  proxy POST requests to Service"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}" :post
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-post-namespaced-service
-  "
-  proxy POST requests to Service"
-  [name namespace ]
-  (:data (proxy-core-v1-post-namespaced-service-with-http-info name namespace)))
-
-(defn proxy-core-v1-post-namespaced-service-with-path-with-http-info
-  "
-  proxy POST requests to Service"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}/{path}" :post
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-post-namespaced-service-with-path
-  "
-  proxy POST requests to Service"
-  [name namespace path ]
-  (:data (proxy-core-v1-post-namespaced-service-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-post-node-with-http-info
-  "
-  proxy POST requests to Node"
-  [name ]
-  (check-required-params name)
-  (call-api "/api/v1/proxy/nodes/{name}" :post
-            {:path-params   {"name" name }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-post-node
-  "
-  proxy POST requests to Node"
-  [name ]
-  (:data (proxy-core-v1-post-node-with-http-info name)))
-
-(defn proxy-core-v1-post-node-with-path-with-http-info
-  "
-  proxy POST requests to Node"
-  [name path ]
-  (check-required-params name path)
-  (call-api "/api/v1/proxy/nodes/{name}/{path}" :post
-            {:path-params   {"name" name "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-post-node-with-path
-  "
-  proxy POST requests to Node"
-  [name path ]
-  (:data (proxy-core-v1-post-node-with-path-with-http-info name path)))
-
-(defn proxy-core-v1-put-namespaced-pod-with-http-info
-  "
-  proxy PUT requests to Pod"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}" :put
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-put-namespaced-pod
-  "
-  proxy PUT requests to Pod"
-  [name namespace ]
-  (:data (proxy-core-v1-put-namespaced-pod-with-http-info name namespace)))
-
-(defn proxy-core-v1-put-namespaced-pod-with-path-with-http-info
-  "
-  proxy PUT requests to Pod"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/pods/{name}/{path}" :put
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-put-namespaced-pod-with-path
-  "
-  proxy PUT requests to Pod"
-  [name namespace path ]
-  (:data (proxy-core-v1-put-namespaced-pod-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-put-namespaced-service-with-http-info
-  "
-  proxy PUT requests to Service"
-  [name namespace ]
-  (check-required-params name namespace)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}" :put
-            {:path-params   {"name" name "namespace" namespace }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-put-namespaced-service
-  "
-  proxy PUT requests to Service"
-  [name namespace ]
-  (:data (proxy-core-v1-put-namespaced-service-with-http-info name namespace)))
-
-(defn proxy-core-v1-put-namespaced-service-with-path-with-http-info
-  "
-  proxy PUT requests to Service"
-  [name namespace path ]
-  (check-required-params name namespace path)
-  (call-api "/api/v1/proxy/namespaces/{namespace}/services/{name}/{path}" :put
-            {:path-params   {"name" name "namespace" namespace "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-put-namespaced-service-with-path
-  "
-  proxy PUT requests to Service"
-  [name namespace path ]
-  (:data (proxy-core-v1-put-namespaced-service-with-path-with-http-info name namespace path)))
-
-(defn proxy-core-v1-put-node-with-http-info
-  "
-  proxy PUT requests to Node"
-  [name ]
-  (check-required-params name)
-  (call-api "/api/v1/proxy/nodes/{name}" :put
-            {:path-params   {"name" name }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-put-node
-  "
-  proxy PUT requests to Node"
-  [name ]
-  (:data (proxy-core-v1-put-node-with-http-info name)))
-
-(defn proxy-core-v1-put-node-with-path-with-http-info
-  "
-  proxy PUT requests to Node"
-  [name path ]
-  (check-required-params name path)
-  (call-api "/api/v1/proxy/nodes/{name}/{path}" :put
-            {:path-params   {"name" name "path" path }
-             :header-params {}
-             :query-params  {}
-             :form-params   {}
-             :content-types ["*/*"]
-             :accepts       ["*/*"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
-
-(defn proxy-core-v1-put-node-with-path
-  "
-  proxy PUT requests to Node"
-  [name path ]
-  (:data (proxy-core-v1-put-node-with-path-with-http-info name path)))
 
 (defn read-core-v1-component-status-with-http-info
   "
@@ -4124,7 +3285,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-component-status
   "
@@ -4146,7 +3307,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespace
   "
@@ -4168,7 +3329,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespace-status
   "
@@ -4190,7 +3351,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-config-map
   "
@@ -4212,7 +3373,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-endpoints
   "
@@ -4234,7 +3395,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-event
   "
@@ -4256,7 +3417,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-limit-range
   "
@@ -4278,7 +3439,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-persistent-volume-claim
   "
@@ -4300,7 +3461,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-persistent-volume-claim-status
   "
@@ -4322,7 +3483,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-pod
   "
@@ -4344,7 +3505,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["text/plain" "application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-pod-log
   "
@@ -4366,7 +3527,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-pod-status
   "
@@ -4388,7 +3549,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-pod-template
   "
@@ -4410,7 +3571,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-replication-controller
   "
@@ -4432,7 +3593,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-replication-controller-scale
   "
@@ -4454,7 +3615,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-replication-controller-status
   "
@@ -4476,7 +3637,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-resource-quota
   "
@@ -4498,7 +3659,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-resource-quota-status
   "
@@ -4520,7 +3681,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-secret
   "
@@ -4542,7 +3703,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-service
   "
@@ -4564,7 +3725,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-service-account
   "
@@ -4586,7 +3747,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-namespaced-service-status
   "
@@ -4608,7 +3769,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-node
   "
@@ -4630,7 +3791,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-node-status
   "
@@ -4652,7 +3813,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-persistent-volume
   "
@@ -4674,7 +3835,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-core-v1-persistent-volume-status
   "
@@ -4697,7 +3858,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespace
   "
@@ -4720,7 +3881,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespace-finalize
   "
@@ -4743,7 +3904,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespace-status
   "
@@ -4766,7 +3927,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-config-map
   "
@@ -4789,7 +3950,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-endpoints
   "
@@ -4812,7 +3973,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-event
   "
@@ -4835,7 +3996,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-limit-range
   "
@@ -4858,7 +4019,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-persistent-volume-claim
   "
@@ -4881,7 +4042,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-persistent-volume-claim-status
   "
@@ -4904,7 +4065,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-pod
   "
@@ -4927,7 +4088,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-pod-status
   "
@@ -4950,7 +4111,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-pod-template
   "
@@ -4973,7 +4134,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-replication-controller
   "
@@ -4996,7 +4157,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-replication-controller-scale
   "
@@ -5019,7 +4180,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-replication-controller-status
   "
@@ -5042,7 +4203,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-resource-quota
   "
@@ -5065,7 +4226,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-resource-quota-status
   "
@@ -5088,7 +4249,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-secret
   "
@@ -5111,7 +4272,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-service
   "
@@ -5134,7 +4295,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-service-account
   "
@@ -5157,7 +4318,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-namespaced-service-status
   "
@@ -5180,7 +4341,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-node
   "
@@ -5203,7 +4364,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-node-status
   "
@@ -5226,7 +4387,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-persistent-volume
   "
@@ -5249,7 +4410,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-core-v1-persistent-volume-status
   "
@@ -5270,7 +4431,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-config-map-list-for-all-namespaces
   "
@@ -5291,7 +4452,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-endpoints-list-for-all-namespaces
   "
@@ -5312,7 +4473,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-event-list-for-all-namespaces
   "
@@ -5333,7 +4494,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-limit-range-list-for-all-namespaces
   "
@@ -5355,7 +4516,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespace
   "
@@ -5376,7 +4537,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespace-list
   "
@@ -5398,7 +4559,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-config-map
   "
@@ -5420,7 +4581,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-config-map-list
   "
@@ -5442,7 +4603,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-endpoints
   "
@@ -5464,7 +4625,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-endpoints-list
   "
@@ -5486,7 +4647,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-event
   "
@@ -5508,7 +4669,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-event-list
   "
@@ -5530,7 +4691,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-limit-range
   "
@@ -5552,7 +4713,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-limit-range-list
   "
@@ -5574,7 +4735,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-persistent-volume-claim
   "
@@ -5596,7 +4757,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-persistent-volume-claim-list
   "
@@ -5618,7 +4779,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-pod
   "
@@ -5640,7 +4801,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-pod-list
   "
@@ -5662,7 +4823,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-pod-template
   "
@@ -5684,7 +4845,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-pod-template-list
   "
@@ -5706,7 +4867,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-replication-controller
   "
@@ -5728,7 +4889,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-replication-controller-list
   "
@@ -5750,7 +4911,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-resource-quota
   "
@@ -5772,7 +4933,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-resource-quota-list
   "
@@ -5794,7 +4955,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-secret
   "
@@ -5816,7 +4977,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-secret-list
   "
@@ -5838,7 +4999,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-service
   "
@@ -5860,7 +5021,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-service-account
   "
@@ -5882,7 +5043,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-service-account-list
   "
@@ -5904,7 +5065,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-namespaced-service-list
   "
@@ -5926,7 +5087,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-node
   "
@@ -5947,7 +5108,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-node-list
   "
@@ -5969,7 +5130,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-persistent-volume
   "
@@ -5990,7 +5151,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-persistent-volume-claim-list-for-all-namespaces
   "
@@ -6011,7 +5172,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-persistent-volume-list
   "
@@ -6032,7 +5193,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-pod-list-for-all-namespaces
   "
@@ -6053,7 +5214,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-pod-template-list-for-all-namespaces
   "
@@ -6074,7 +5235,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-replication-controller-list-for-all-namespaces
   "
@@ -6095,7 +5256,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-resource-quota-list-for-all-namespaces
   "
@@ -6116,7 +5277,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-secret-list-for-all-namespaces
   "
@@ -6137,7 +5298,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-service-account-list-for-all-namespaces
   "
@@ -6158,7 +5319,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-core-v1-service-list-for-all-namespaces
   "

@@ -8,8 +8,7 @@
            (java.text SimpleDateFormat)))
 
 (def auth-definitions
-  {"BearerToken" {:type :api-key :in :header :param-name "authorization"}
-   "HTTPBasic" {:type :basic}})
+  {"BearerToken" {:type :api-key :in :header :param-name "authorization"}})
 
 (def default-api-context
   "Default API context."
@@ -17,8 +16,7 @@
    :date-format     "yyyy-MM-dd"
    :datetime-format "yyyy-MM-dd'T'HH:mm:ss.SSSXXX"
    :debug           false
-   :auths           {"BearerToken" nil
-                     "HTTPBasic" nil}})
+   :auths           {"BearerToken" nil}})
 
 (def ^:dynamic *api-context*
   "Dynamic API context to be applied in API calls."

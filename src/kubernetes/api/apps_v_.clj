@@ -16,7 +16,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-apps-v1-namespaced-controller-revision
   "
@@ -39,7 +39,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-apps-v1-namespaced-daemon-set
   "
@@ -62,7 +62,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-apps-v1-namespaced-deployment
   "
@@ -85,7 +85,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-apps-v1-namespaced-replica-set
   "
@@ -108,7 +108,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-apps-v1-namespaced-stateful-set
   "
@@ -130,7 +130,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-collection-namespaced-controller-revision
   "
@@ -152,7 +152,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-collection-namespaced-daemon-set
   "
@@ -174,7 +174,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-collection-namespaced-deployment
   "
@@ -196,7 +196,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-collection-namespaced-replica-set
   "
@@ -218,7 +218,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-collection-namespaced-stateful-set
   "
@@ -241,7 +241,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-namespaced-controller-revision
   "
@@ -264,7 +264,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-namespaced-daemon-set
   "
@@ -287,7 +287,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-namespaced-deployment
   "
@@ -310,7 +310,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-namespaced-replica-set
   "
@@ -333,7 +333,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-apps-v1-namespaced-stateful-set
   "
@@ -353,7 +353,7 @@
              :form-params   {}
              :content-types ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
              :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
+             :auth-names    ["BearerToken"]}))
 
 (defn get-apps-v1-api-resources
   "
@@ -373,7 +373,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-controller-revision-for-all-namespaces
   "
@@ -394,7 +394,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-daemon-set-for-all-namespaces
   "
@@ -415,7 +415,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-deployment-for-all-namespaces
   "
@@ -437,7 +437,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-namespaced-controller-revision
   "
@@ -459,7 +459,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-namespaced-daemon-set
   "
@@ -481,7 +481,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-namespaced-deployment
   "
@@ -503,7 +503,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-namespaced-replica-set
   "
@@ -525,7 +525,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-namespaced-stateful-set
   "
@@ -546,7 +546,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-replica-set-for-all-namespaces
   "
@@ -567,7 +567,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-apps-v1-stateful-set-for-all-namespaces
   "
@@ -590,7 +590,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-controller-revision
   "
@@ -613,7 +613,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-daemon-set
   "
@@ -636,7 +636,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-daemon-set-status
   "
@@ -659,7 +659,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-deployment
   "
@@ -682,7 +682,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-deployment-scale
   "
@@ -705,7 +705,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-deployment-status
   "
@@ -728,7 +728,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-replica-set
   "
@@ -751,7 +751,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-replica-set-scale
   "
@@ -774,7 +774,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-replica-set-status
   "
@@ -797,7 +797,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-stateful-set
   "
@@ -820,7 +820,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-stateful-set-scale
   "
@@ -843,7 +843,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-apps-v1-namespaced-stateful-set-status
   "
@@ -865,7 +865,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-controller-revision
   "
@@ -887,7 +887,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-daemon-set
   "
@@ -909,7 +909,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-daemon-set-status
   "
@@ -931,7 +931,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-deployment
   "
@@ -953,7 +953,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-deployment-scale
   "
@@ -975,7 +975,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-deployment-status
   "
@@ -997,7 +997,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-replica-set
   "
@@ -1019,7 +1019,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-replica-set-scale
   "
@@ -1041,7 +1041,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-replica-set-status
   "
@@ -1063,7 +1063,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-stateful-set
   "
@@ -1085,7 +1085,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-stateful-set-scale
   "
@@ -1107,7 +1107,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-apps-v1-namespaced-stateful-set-status
   "
@@ -1130,7 +1130,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-controller-revision
   "
@@ -1153,7 +1153,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-daemon-set
   "
@@ -1176,7 +1176,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-daemon-set-status
   "
@@ -1199,7 +1199,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-deployment
   "
@@ -1222,7 +1222,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-deployment-scale
   "
@@ -1245,7 +1245,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-deployment-status
   "
@@ -1268,7 +1268,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-replica-set
   "
@@ -1291,7 +1291,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-replica-set-scale
   "
@@ -1314,7 +1314,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-replica-set-status
   "
@@ -1337,7 +1337,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-stateful-set
   "
@@ -1360,7 +1360,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-stateful-set-scale
   "
@@ -1383,7 +1383,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-apps-v1-namespaced-stateful-set-status
   "
@@ -1404,7 +1404,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-controller-revision-list-for-all-namespaces
   "
@@ -1425,7 +1425,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-daemon-set-list-for-all-namespaces
   "
@@ -1446,7 +1446,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-deployment-list-for-all-namespaces
   "
@@ -1468,7 +1468,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-controller-revision
   "
@@ -1490,7 +1490,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-controller-revision-list
   "
@@ -1512,7 +1512,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-daemon-set
   "
@@ -1534,7 +1534,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-daemon-set-list
   "
@@ -1556,7 +1556,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-deployment
   "
@@ -1578,7 +1578,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-deployment-list
   "
@@ -1600,7 +1600,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-replica-set
   "
@@ -1622,7 +1622,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-replica-set-list
   "
@@ -1644,7 +1644,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-stateful-set
   "
@@ -1666,7 +1666,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-namespaced-stateful-set-list
   "
@@ -1687,7 +1687,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-replica-set-list-for-all-namespaces
   "
@@ -1708,7 +1708,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-apps-v1-stateful-set-list-for-all-namespaces
   "

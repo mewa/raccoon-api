@@ -16,7 +16,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-admissionregistration-v1beta1-mutating-webhook-configuration
   "
@@ -39,7 +39,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-admissionregistration-v1beta1-validating-webhook-configuration
   "
@@ -60,7 +60,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-admissionregistration-v1beta1-collection-mutating-webhook-configuration
   "
@@ -81,7 +81,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-admissionregistration-v1beta1-collection-validating-webhook-configuration
   "
@@ -104,7 +104,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-admissionregistration-v1beta1-mutating-webhook-configuration
   "
@@ -127,7 +127,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-admissionregistration-v1beta1-validating-webhook-configuration
   "
@@ -147,7 +147,7 @@
              :form-params   {}
              :content-types ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
              :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
+             :auth-names    ["BearerToken"]}))
 
 (defn get-admissionregistration-v1beta1-api-resources
   "
@@ -167,7 +167,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-admissionregistration-v1beta1-mutating-webhook-configuration
   "
@@ -188,7 +188,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-admissionregistration-v1beta1-validating-webhook-configuration
   "
@@ -211,7 +211,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-admissionregistration-v1beta1-mutating-webhook-configuration
   "
@@ -234,7 +234,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-admissionregistration-v1beta1-validating-webhook-configuration
   "
@@ -256,7 +256,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-admissionregistration-v1beta1-mutating-webhook-configuration
   "
@@ -278,7 +278,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-admissionregistration-v1beta1-validating-webhook-configuration
   "
@@ -301,7 +301,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-admissionregistration-v1beta1-mutating-webhook-configuration
   "
@@ -324,7 +324,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-admissionregistration-v1beta1-validating-webhook-configuration
   "
@@ -346,7 +346,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-admissionregistration-v1beta1-mutating-webhook-configuration
   "
@@ -367,7 +367,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-admissionregistration-v1beta1-mutating-webhook-configuration-list
   "
@@ -389,7 +389,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-admissionregistration-v1beta1-validating-webhook-configuration
   "
@@ -410,7 +410,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-admissionregistration-v1beta1-validating-webhook-configuration-list
   "

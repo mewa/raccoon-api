@@ -16,7 +16,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-rbac-authorization-v1-cluster-role
   "
@@ -39,7 +39,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-rbac-authorization-v1-cluster-role-binding
   "
@@ -62,7 +62,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-rbac-authorization-v1-namespaced-role
   "
@@ -85,7 +85,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-rbac-authorization-v1-namespaced-role-binding
   "
@@ -108,7 +108,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-cluster-role
   "
@@ -131,7 +131,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-cluster-role-binding
   "
@@ -152,7 +152,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-collection-cluster-role
   "
@@ -173,7 +173,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-collection-cluster-role-binding
   "
@@ -195,7 +195,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-collection-namespaced-role
   "
@@ -217,7 +217,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-collection-namespaced-role-binding
   "
@@ -240,7 +240,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-namespaced-role
   "
@@ -263,7 +263,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-rbac-authorization-v1-namespaced-role-binding
   "
@@ -283,7 +283,7 @@
              :form-params   {}
              :content-types ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
              :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
+             :auth-names    ["BearerToken"]}))
 
 (defn get-rbac-authorization-v1-api-resources
   "
@@ -303,7 +303,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-rbac-authorization-v1-cluster-role
   "
@@ -324,7 +324,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-rbac-authorization-v1-cluster-role-binding
   "
@@ -346,7 +346,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-rbac-authorization-v1-namespaced-role
   "
@@ -368,7 +368,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-rbac-authorization-v1-namespaced-role-binding
   "
@@ -389,7 +389,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-rbac-authorization-v1-role-binding-for-all-namespaces
   "
@@ -410,7 +410,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-rbac-authorization-v1-role-for-all-namespaces
   "
@@ -433,7 +433,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-rbac-authorization-v1-cluster-role
   "
@@ -456,7 +456,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-rbac-authorization-v1-cluster-role-binding
   "
@@ -479,7 +479,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-rbac-authorization-v1-namespaced-role
   "
@@ -502,7 +502,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-rbac-authorization-v1-namespaced-role-binding
   "
@@ -524,7 +524,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-rbac-authorization-v1-cluster-role
   "
@@ -546,7 +546,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-rbac-authorization-v1-cluster-role-binding
   "
@@ -568,7 +568,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-rbac-authorization-v1-namespaced-role
   "
@@ -590,7 +590,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-rbac-authorization-v1-namespaced-role-binding
   "
@@ -613,7 +613,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-rbac-authorization-v1-cluster-role
   "
@@ -636,7 +636,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-rbac-authorization-v1-cluster-role-binding
   "
@@ -659,7 +659,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-rbac-authorization-v1-namespaced-role
   "
@@ -682,7 +682,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-rbac-authorization-v1-namespaced-role-binding
   "
@@ -704,7 +704,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-cluster-role
   "
@@ -726,7 +726,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-cluster-role-binding
   "
@@ -747,7 +747,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-cluster-role-binding-list
   "
@@ -768,7 +768,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-cluster-role-list
   "
@@ -790,7 +790,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-namespaced-role
   "
@@ -812,7 +812,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-namespaced-role-binding
   "
@@ -834,7 +834,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-namespaced-role-binding-list
   "
@@ -856,7 +856,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-namespaced-role-list
   "
@@ -877,7 +877,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-role-binding-list-for-all-namespaces
   "
@@ -898,7 +898,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-rbac-authorization-v1-role-list-for-all-namespaces
   "

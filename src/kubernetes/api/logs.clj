@@ -13,7 +13,7 @@
              :form-params   {}
              :content-types []
              :accepts       []
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
+             :auth-names    ["BearerToken"]}))
 
 (defn log-file-handler
   ""
@@ -30,7 +30,7 @@
              :form-params   {}
              :content-types []
              :accepts       []
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
+             :auth-names    ["BearerToken"]}))
 
 (defn log-file-list-handler
   ""

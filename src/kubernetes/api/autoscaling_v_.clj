@@ -16,7 +16,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn create-autoscaling-v1-namespaced-horizontal-pod-autoscaler
   "
@@ -38,7 +38,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-autoscaling-v1-collection-namespaced-horizontal-pod-autoscaler
   "
@@ -61,7 +61,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn delete-autoscaling-v1-namespaced-horizontal-pod-autoscaler
   "
@@ -81,7 +81,7 @@
              :form-params   {}
              :content-types ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
              :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-             :auth-names    ["BearerToken" "HTTPBasic"]}))
+             :auth-names    ["BearerToken"]}))
 
 (defn get-autoscaling-v1-api-resources
   "
@@ -101,7 +101,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-autoscaling-v1-horizontal-pod-autoscaler-for-all-namespaces
   "
@@ -123,7 +123,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn list-autoscaling-v1-namespaced-horizontal-pod-autoscaler
   "
@@ -146,7 +146,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-autoscaling-v1-namespaced-horizontal-pod-autoscaler
   "
@@ -169,7 +169,7 @@
               :body-param    body
               :content-types ["application/json-patch+json" "application/merge-patch+json" "application/strategic-merge-patch+json"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn patch-autoscaling-v1-namespaced-horizontal-pod-autoscaler-status
   "
@@ -191,7 +191,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-autoscaling-v1-namespaced-horizontal-pod-autoscaler
   "
@@ -213,7 +213,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn read-autoscaling-v1-namespaced-horizontal-pod-autoscaler-status
   "
@@ -236,7 +236,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-autoscaling-v1-namespaced-horizontal-pod-autoscaler
   "
@@ -259,7 +259,7 @@
               :body-param    body
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn replace-autoscaling-v1-namespaced-horizontal-pod-autoscaler-status
   "
@@ -280,7 +280,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-autoscaling-v1-horizontal-pod-autoscaler-list-for-all-namespaces
   "
@@ -302,7 +302,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-autoscaling-v1-namespaced-horizontal-pod-autoscaler
   "
@@ -324,7 +324,7 @@
               :form-params   {}
               :content-types ["*/*"]
               :accepts       ["application/json" "application/yaml" "application/vnd.kubernetes.protobuf" "application/json;stream=watch" "application/vnd.kubernetes.protobuf;stream=watch"]
-              :auth-names    ["BearerToken" "HTTPBasic"]})))
+              :auth-names    ["BearerToken"]})))
 
 (defn watch-autoscaling-v1-namespaced-horizontal-pod-autoscaler-list
   "
