@@ -7,7 +7,7 @@ variable "zone" {
 }
 
 variable "k8s_version" {
-  default = "1.9.7-gke.0"
+  default = "1.10.2-gke.3"
 }
 
 variable "project" {
